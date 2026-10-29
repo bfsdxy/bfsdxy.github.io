@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bfsdxy · 个人主页</title>
+  <meta name="description" content="bfsdxy 的个人主页 —— 学生、技术爱好者，喜欢用代码把想法变成现实。">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%234f46e5'/%3E%3Ctext x='50' y='70' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif'%3Eb%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">bfsdxy<span>.</span></a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换浅色/深色主题" title="切换主题">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top">
+      <div class="hero-text">
+        <p class="eyebrow">你好，我是</p>
+        <h1>bfsdxy</h1>
+        <p class="tagline">学生 · 技术爱好者</p>
+        <p class="hero-desc">我喜欢用代码把想法变成可运行的小东西，也喜欢探索新工具、整理学习笔记，和同学一起做项目。</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">看看我的项目</a>
+          <a class="btn ghost" href="#contact">联系我</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="avatar">b</div>
+        <div class="hero-card-info">
+          <strong>bfsdxy</strong>
+          <span>在线 · 持续学习中</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <h2><span class="num">01</span> 关于我</h2>
+      <p class="lead">我是一名普通的学生，对编程和互联网世界充满好奇。</p>
+      <p>我相信“做中学”：比起只看教程，我更喜欢动手把一个小想法一步步实现出来。平时我会写一些网页小作品，也乐于把踩过的坑记录下来。</p>
+      <p>这个站点是我用纯 HTML、CSS 和一点点 JavaScript 手工搭建的，托管在 GitHub Pages 上。</p>
+    </section>
+
+    <section class="section container" id="skills">
+      <h2><span class="num">02</span> 技能与兴趣</h2>
+      <div class="tags">
+        <span class="tag">HTML / CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Python</span>
+        <span class="tag">Git / GitHub</span>
+        <span class="tag">命令行</span>
+        <span class="tag">设计基础</span>
+        <span class="tag">持续学习</span>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <h2><span class="num">03</span> 项目</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">🌐</div>
+          <h3>个人主页</h3>
+          <p>你正在浏览的这个站点，用纯静态 HTML/CSS/JS 构建并部署在 GitHub Pages。</p>
+          <span class="card-tag">Web</span>
+        </article>
+        <article class="card">
+          <div class="card-icon">📝</div>
+          <h3>待办清单</h3>
+          <p>一个轻量的待办事项小工具，用来练习 DOM 操作与本地存储。</p>
+          <span class="card-tag">JavaScript</span>
+        </article>
+        <article class="card">
+          <div class="card-icon">🧪</div>
+          <h3>学习笔记</h3>
+          <p>把日常学习中的命令、技巧和小实验整理成可检索的笔记。</p>
+          <span class="card-tag">Notes</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <h2><span class="num">04</span> 联系</h2>
+      <p>欢迎在 GitHub 上找到我，交流想法或一起做点小项目。</p>
+      <div class="contact-links">
+        <a class="btn primary" href="https://github.com/bfsdxy" target="_blank" rel="noopener">GitHub · @bfsdxy</a>
+        <a class="btn ghost" href="#top">回到顶部</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> bfsdxy</span>
+      <span>用 HTML &amp; CSS 手工构建 · 托管于 GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
